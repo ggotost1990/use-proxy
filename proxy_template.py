@@ -21,7 +21,7 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
 }
 url = "https://www.gucci.com/fr/zh/pr/women/ready-to-wear-for-women/jackets-for-women/down-jackets-windbreakers-for-women/the-north-face-x-gucci-padded-vest-p-663739XLUHP6168"
-
+# ip_test = "http://httpbin.org/ip"
 try:
     response = requests.get(url, headers=headers, proxies=proxies, timeout=5)
     print(response.text)
